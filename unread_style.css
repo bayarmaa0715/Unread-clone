@@ -180,14 +180,16 @@ nav {
   border-radius: 20px;
   object-fit: cover;
   object-position: 10% 50%;
+  transition: all 5s linear;
+  /* border: #0078f6 2px solid; */
 }
 
 .hero-content-container img:hover {
-  object-view-box: inset(10% 10% 10% 10%);
-  transition: all 0.6 ease-in;
+  transition: all 5s ease-in;
   /* transform: scale(1.1); */
   cursor: pointer;
   /* object-position: 10% 10%; */
+  object-view-box: inset(5% 5% 5% 5%);
 }
 
 .hero-content-text {
@@ -328,10 +330,10 @@ nav {
   /* height: 433px; */
   padding: 12px 13px;
   box-shadow: 0px 5px 4px 0px rgba(50, 51, 52, 0.2);
+  transition: all 0.4s ease-in;
 }
 
 .slider-box:hover {
-  transition: all 0.4s ease-in;
   transform: scale(1.1);
 }
 .box1 {
@@ -554,6 +556,7 @@ nav {
   opacity: 0.5;
   font-size: 0.8rem;
   cursor: pointer;
+  transition: all 0.9s ease-in;
 }
 
 .history-news-container nav button:hover {
@@ -581,6 +584,7 @@ nav {
   /* border: 1px solid red; */
   border-radius: 20px;
   position: relative;
+  transition: all 0.9s ease-in;
 }
 
 .history-box:hover {
@@ -809,6 +813,7 @@ nav {
     rgb(68, 73, 71),
     rgba(3, 3, 3, 0.739)
   );
+  transition: all 0.9s ease-in;
 }
 
 .content-sent:hover {
